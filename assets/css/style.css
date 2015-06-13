@@ -358,6 +358,11 @@ a:focus {
 	margin-top: 15px;
 }
 
+#w i {
+	font-size: 50px;
+	color: #da4e02;
+}
+
 /* Grey Section */
 #g {
 	padding-top: 80px;
@@ -375,7 +380,7 @@ a:focus {
 }
 
 #g i {
-	font-size: 30px;
+	font-size: 50px;
 	color: #da4e02;
 }
 
