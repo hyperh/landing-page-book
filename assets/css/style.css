@@ -281,11 +281,9 @@ a:focus {
 	color: white;
 }
 
-
 /* HEADER SECTION */
-
 #h {
-	background: url(../img/header.png) no-repeat center top;
+	background: url(../img/header.jpg) no-repeat center top;
 	background-color: #ece4e4;
 	padding-top: 230px;
 	text-align:center;
