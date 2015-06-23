@@ -4,7 +4,7 @@
  <title>Codetrepreneur</title>
  <link href="http://www.codetrepreneur.com/atom.xml" rel="self"/>
  <link href="http://www.codetrepreneur.com/"/>
- <updated>2015-06-23T12:15:34-04:00</updated>
+ <updated>2015-06-23T14:11:57-04:00</updated>
  <id>http://www.codetrepreneur.com</id>
  <author>
    <name>Tom Riddle</name>
@@ -20,12 +20,61 @@
    <content type="html">&lt;p&gt;After you&amp;#39;ve started promoting your awesome product to people, they&amp;#39;ll start visiting your website. It would be helpful if we could find out how many people are coming to your website and see what the percentage of people who sign up for your mailing list is. &lt;/p&gt;
 
 &lt;p&gt;In order to do this, we&amp;#39;re going to use Google Analytics. It can also tell you where the majority of your traffic is coming from, so you can focus your efforts in the place that gives you the most bang for your buck.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;    ○ Check if it&amp;#39;s working
-        i. Real Time
-            □ This should be updated live, will be updated faster than the Admin method
-        ii. Admin &amp;gt; Tracking Info &amp;gt; Tracking Code
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Look at the status, might take 24 hrs to update&lt;/p&gt;
+
+&lt;h2&gt;Setting Up Google Analytics&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;In Google Analytics, click &lt;strong&gt;Admin&lt;/strong&gt;. 
+&lt;img src=&quot;/assets/analytics-main.png&quot; alt=&quot;Google Analytics Main&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Create a new property to track.
+&lt;img src=&quot;/assets/analytics-admin.png&quot; alt=&quot;Google Analytics Admin&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Complete the new property creation form.
+&lt;img src=&quot;/assets/analytics-new.png&quot; alt=&quot;Google Analytics New&quot;&gt;&lt;/li&gt;
+&lt;li&gt;After setting up a new property, you&amp;#39;ll receive a tracking code.
+&lt;img src=&quot;/assets/analytics-tracking.png&quot; alt=&quot;Google Analytics Tracking&quot;&gt;
+Paste the Google Analytics code between the &lt;code&gt;&amp;lt;head&amp;gt;...&amp;lt;/head&amp;gt;&lt;/code&gt; tags in your website for every page that you want to track. &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    ...
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;GoogleAnalyticsObject&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;||&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;||&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)},&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementsByTagName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;async&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parentNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;insertBefore&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;})(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;script&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;//www.google-analytics.com/analytics.js&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;ga&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+        &lt;span class=&quot;nx&quot;&gt;ga&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;create&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;UA-00000000-1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;auto&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;ga&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;send&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;pageview&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;  
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+&lt;li&gt;asdsa&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Check If It&amp;#39;s Working&lt;/h2&gt;
+
+&lt;p&gt;After you&amp;#39;ve pasted the code into your website, we should check to make sure that the site is being tracked properly.&lt;/p&gt;
+
+&lt;h3&gt;Real Time&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Navigate to your website.&lt;/li&gt;
+&lt;li&gt;In another tab or browser window, go to Google Analytics and click on the &lt;strong&gt;Real-Time&lt;/strong&gt; button on the sidebar. You should be able to see your visit to on your website show up as an active user.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;h4&gt;I&amp;#39;m on my website, but Google Analytics doesn&amp;#39;t show it!&lt;/h4&gt;
+
+&lt;p&gt;Do you have a Javascript blocker installed? Either disable it for now or add your website to the whitelist. I often forget to do this and I get mad when my visits don&amp;#39;t show up during testing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Tracking Status&lt;/h3&gt;
+
+&lt;p&gt;You can also check the status of the website, by going to &lt;strong&gt;Admin &amp;gt; Tracking Info &amp;gt; Tracking Code&lt;/strong&gt;. 
+&lt;img src=&quot;/assets/analytics-admin-tracking.png&quot; alt=&quot;Google Analytics Admin Tracking&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;At the top of the page, you can see the current status of the tracking code. If it says &lt;strong&gt;Receiving Data&lt;/strong&gt;, your analytics should be running. Don&amp;#39;t worry if it doesn&amp;#39;t, as the updates to this status can take up to 24 hrs to take effect.&lt;/p&gt;
 </content>
  </entry>
  
@@ -220,13 +269,17 @@ This template makes use of the [Bootstrap](https://en.wikipedia.org/wiki/Bootstr
 &lt;blockquote&gt;
 &lt;p&gt;You can change this later if you want in &lt;strong&gt;Settings&lt;/strong&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Select &lt;strong&gt;Initialize this repository with a README&lt;/strong&gt;.&lt;img src=&quot;/assets/github-init-readme.png&quot; alt=&quot;Initialize with a README&quot;&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Create a new branch called &lt;code&gt;gh-pages&lt;/code&gt;.&lt;img src=&quot;/assets/github-new-branch.png&quot; alt=&quot;Create a new branch&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Select &lt;strong&gt;Initialize this repository with a README&lt;/strong&gt;.
+&lt;img src=&quot;/assets/github-init-readme.png&quot; alt=&quot;Initialize with a README&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create a new branch called &lt;code&gt;gh-pages&lt;/code&gt;.
+&lt;img src=&quot;/assets/github-new-branch.png&quot; alt=&quot;Create a new branch&quot;&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;(Optional) Set the default branch to &lt;code&gt;gh-pages&lt;/code&gt;.&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Go into the &lt;strong&gt;Settings&lt;/strong&gt; of your repo.&lt;img src=&quot;/assets/github-settings.png&quot; alt=&quot;GitHub repo settings&quot;&gt;&lt;/li&gt;
-&lt;li&gt;Set default branch to &lt;code&gt;gh-pages&lt;/code&gt;&lt;img src=&quot;/assets/github-default-branch.png&quot; alt=&quot;Set default branch&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Go into the &lt;strong&gt;Settings&lt;/strong&gt; of your repo.
+&lt;img src=&quot;/assets/github-settings.png&quot; alt=&quot;GitHub repo settings&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Set default branch to &lt;code&gt;gh-pages&lt;/code&gt;
+&lt;img src=&quot;/assets/github-default-branch.png&quot; alt=&quot;Set default branch&quot;&gt;&lt;/li&gt;
 &lt;/ol&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Copy the clone URL of the repository.&lt;img src=&quot;/assets/github-clone-url.png&quot; alt=&quot;Clone URL&quot;&gt; It should look like this: 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;https://github.com/username/my-site.git&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&lt;/li&gt;

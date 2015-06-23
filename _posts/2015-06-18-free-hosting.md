@@ -15,11 +15,15 @@ For our free hosting provider, we are going to use [GitHub Pages](https://pages.
 2. Enter a repository name.![Enter a repository name](/assets/github-repo-name.png) 
 > You can change this later if you want in **Settings**.
 
-3. Select **Initialize this repository with a README**.![Initialize with a README](/assets/github-init-readme.png)
-4. Create a new branch called `gh-pages`.![Create a new branch](/assets/github-new-branch.png)
+3. Select **Initialize this repository with a README**.
+![Initialize with a README](/assets/github-init-readme.png)
+4. Create a new branch called `gh-pages`.
+![Create a new branch](/assets/github-new-branch.png)
 5. (Optional) Set the default branch to `gh-pages`.
-	1. Go into the **Settings** of your repo.![GitHub repo settings](/assets/github-settings.png)
-	2. Set default branch to `gh-pages`![Set default branch](/assets/github-default-branch.png)
+	1. Go into the **Settings** of your repo.
+	![GitHub repo settings](/assets/github-settings.png)
+	2. Set default branch to `gh-pages`
+	![Set default branch](/assets/github-default-branch.png)
 6. Copy the clone URL of the repository.![Clone URL](/assets/github-clone-url.png) It should look like this: {% highlight html %} https://github.com/username/my-site.git {% endhighlight %}	
 
 ### Terminal
