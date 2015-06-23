@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Archive
+title: Landing Page Guide
 ---
 
-## All Blog Posts
+## Landing Page Guide
 
-{% for post in site.posts %}
+{% for post in site.tags.landing_page_guide reversed %}
   * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
 {% endfor %}
