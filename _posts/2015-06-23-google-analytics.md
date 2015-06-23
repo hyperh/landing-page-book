@@ -33,7 +33,6 @@ Paste the Google Analytics code between the `<head>...</head>` tags in your webs
 	</script>  
 </head>
 {% endhighlight %}
-5. asdsa
 
 ## Check If It's Working
 
