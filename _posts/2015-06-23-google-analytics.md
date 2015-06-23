@@ -7,3 +7,9 @@ After you've started promoting your awesome product to people, they'll start vis
 
 In order to do this, we're going to use Google Analytics. It can also tell you where the majority of your traffic is coming from, so you can focus your efforts in the place that gives you the most bang for your buck.
 
+
+		○ Check if it's working
+			i. Real Time
+				□ This should be updated live, will be updated faster than the Admin method
+			ii. Admin > Tracking Info > Tracking Code
+Look at the status, might take 24 hrs to update

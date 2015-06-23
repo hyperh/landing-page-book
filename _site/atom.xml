@@ -4,7 +4,7 @@
  <title>Codetrepreneur</title>
  <link href="http://www.codetrepreneur.com/atom.xml" rel="self"/>
  <link href="http://www.codetrepreneur.com/"/>
- <updated>2015-06-23T12:12:30-04:00</updated>
+ <updated>2015-06-23T12:15:34-04:00</updated>
  <id>http://www.codetrepreneur.com</id>
  <author>
    <name>Tom Riddle</name>
@@ -20,6 +20,12 @@
    <content type="html">&lt;p&gt;After you&amp;#39;ve started promoting your awesome product to people, they&amp;#39;ll start visiting your website. It would be helpful if we could find out how many people are coming to your website and see what the percentage of people who sign up for your mailing list is. &lt;/p&gt;
 
 &lt;p&gt;In order to do this, we&amp;#39;re going to use Google Analytics. It can also tell you where the majority of your traffic is coming from, so you can focus your efforts in the place that gives you the most bang for your buck.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;    ○ Check if it&amp;#39;s working
+        i. Real Time
+            □ This should be updated live, will be updated faster than the Admin method
+        ii. Admin &amp;gt; Tracking Info &amp;gt; Tracking Code
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Look at the status, might take 24 hrs to update&lt;/p&gt;
 </content>
  </entry>
  
