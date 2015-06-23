@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Landing Page Guide Part 2: The Hosting &middot; Codetrepreneur
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-0c">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Codetrepreneur
+        </a>
+      </h1>
+      <p class="lead">Build your dreams.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about/">About</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    </nav>
+
+    <p>&copy; 2015. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Landing Page Guide Part 2: The Hosting</h1>
+  <span class="post-date">18 Jun 2015</span>
+  <p>You <em>could</em> always pay for hosting, but thanks to the Internet there are many good free hosting services out there we can take advantage of. A simple landing page shouldn&#39;t require anything complicated.</p>
+
+<h2>Free Hosting</h2>
+
+<p>For our free hosting provider, we are going to use <a href="https://pages.github.com">GitHub Pages</a>. If you don&#39;t have a GitHub account, you can sign up <a href="https://github.com/join">here</a>.</p>
+
+<blockquote>
+<p>On a free GitHub account, anyone can see your files. But since we&#39;re just building a static landing page, anyone can see the HTML through <code>View Source</code> on any browser anyways.</p>
+</blockquote>
+
+<h3>GitHub</h3>
+
+<ol>
+<li>Once you have an account, create a new repository.<img src="/assets/github-new-repo.png" alt="Create a new repository"></li>
+<li><p>Enter a repository name.<img src="/assets/github-repo-name.png" alt="Enter a repository name"> </p>
+
+<blockquote>
+<p>You can change this later if you want in <strong>Settings</strong>.</p>
+</blockquote></li>
+<li><p>Select <strong>Initialize this repository with a README</strong>.<img src="/assets/github-init-readme.png" alt="Initialize with a README"></p></li>
+<li><p>Create a new branch called <code>gh-pages</code>.<img src="/assets/github-new-branch.png" alt="Create a new branch"></p></li>
+<li><p>(Optional) Set the default branch to <code>gh-pages</code>.</p>
+
+<ol>
+<li>Go into the <strong>Settings</strong> of your repo.<img src="/assets/github-settings.png" alt="GitHub repo settings"></li>
+<li>Set default branch to <code>gh-pages</code><img src="/assets/github-default-branch.png" alt="Set default branch"></li>
+</ol></li>
+<li><p>Copy the clone URL of the repository.<img src="/assets/github-clone-url.png" alt="Clone URL"> It should look like this: 
+<div class="highlight"><pre><code class="language-html" data-lang="html">https://github.com/username/my-site.git</code></pre></div></p></li>
+</ol>
+
+<h3>Terminal</h3>
+
+<ol>
+<li><p>Clone the remote git repository by typing the following into your terminal. 
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git clone https://github.com/username/my-site.git</code></pre></div></p></li>
+<li><p>Let&#39;s try modifying the <code>README</code> file. Open the file and type in <code>Hello world!</code>.</p></li>
+<li><p>Add and commit the file to your local git repo. 
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git add README.md
+git commit -m <span class="s2">&quot;Just sayin&#39; hi.&quot;</span></code></pre></div></p></li>
+<li><p>Push the commit to GitHub. 
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git push origin gh-pages</code></pre></div></p></li>
+</ol>
+
+<h3>Setting Up a Custom Domain Name</h3>
+
+<ol>
+<li>Sign into your Namecheap account.</li>
+<li>Click on <strong>Your Domains / Products</strong>.
+<img src="/assets/namecheap-main-page.png" alt="Namecheap Main Page"></li>
+<li>Click on the domain name you want to display the webpage currently at <code>username.github.io</code>.
+<img src="/assets/namecheap-your-domains.png" alt="Namecheap Domains"></li>
+<li>Click on <strong>URL Forwarding</strong>.
+<img src="/assets/namecheap-my-website.png" alt="Namecheap My Website"></li>
+<li>Setup two CNAME records. One for the root apex <code>(@)</code> and one for <code>www.</code> Both point to <code>username.github.io.</code>. The period at the end is required.
+<img src="/assets/namecheap-modify-domain.png" alt="Namecheap Modify Domain"></li>
+<li>Click on <strong>Save Changes</strong>.</li>
+<li>Go to your url and check that it&#39;s redirecting properly.</li>
+</ol>
+
+<p>Now that we&#39;ve set up hosting and our domain name is redirecting to our GitHub Pages repo, let&#39;s move on to adding content.</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2015/06/23/google-analytics/">
+            Landing Page Guide 7: Understanding Your Traffic
+            <small>23 Jun 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2015/06/22/collecting-emails/">
+            Landing Page Guide Part 6: Collecting Emails
+            <small>22 Jun 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2015/06/21/persuasive-writing/">
+            Landing Page Guide Part 5: Persuasive Writing
+            <small>21 Jun 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>

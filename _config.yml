@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Codetrepreneur
+tagline:          'Build your dreams.'
+description:      'Build your dreams.'
+url:              http://www.codetrepreneur.com
+baseurl:          /
+
+author:
+  name:           'Tom Riddle'
+  url:            https://twitter.com/
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Codetrepreneur</title>
+ <link href="http://www.codetrepreneur.com/atom.xml" rel="self"/>
+ <link href="http://www.codetrepreneur.com/"/>
+ <updated>2015-06-23T10:54:07-04:00</updated>
+ <id>http://www.codetrepreneur.com</id>
+ <author>
+   <name>Tom Riddle</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Landing Page Guide 7: Understanding Your Traffic</title>
+   <link href="http://www.codetrepreneur.com/2015/06/23/google-analytics/"/>
+   <updated>2015-06-23T00:00:00-04:00</updated>
+   <id>http://www.codetrepreneur.com/2015/06/23/google-analytics</id>
+   <content type="html">&lt;p&gt;After you&amp;#39;ve started promoting your awesome product to people, they&amp;#39;ll start visiting your website. It would be helpful if we could find out how many people are coming to your website and see what the percentage of people who sign up for your mailing list is. &lt;/p&gt;
+
+&lt;p&gt;In order to do this, we&amp;#39;re going to use Google Analytics. It can also tell you where the majority of your traffic is coming from, so you can focus your efforts in the place that gives you the most bang for your buck.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Landing Page Guide Part 6: Collecting Emails</title>
+   <link href="http://www.codetrepreneur.com/2015/06/22/collecting-emails/"/>
+   <updated>2015-06-22T00:00:00-04:00</updated>
+   <id>http://www.codetrepreneur.com/2015/06/22/collecting-emails</id>
+   <content type="html">&lt;p&gt;It’s important to have a landing page, and a landing page can do many things for you. However, one of the chief uses for a landing page is to collect and build an email list. Why is this important?&lt;/p&gt;
+
+&lt;p&gt;Maybe you don’t have an app yet, but you want to validate the idea by gauging the demand. Many times, this can give you a huge boost in motivation to work on something. Or maybe you want to have a way to contact a very specific group of people who might enjoy future products you plan to build. In either case (and many others), email lists are one of the most valuable things you can have.&lt;/p&gt;
+
+&lt;p&gt;In this post, we will talk about email addresses, specifically how we will collect emails and send emails through MailChimp.&lt;/p&gt;
+
+&lt;h3&gt;Selecting a Service Provider: MailChimp or AWeber&lt;/h3&gt;
+
+&lt;p&gt;The two most popular services to handle email lists and campaigns are MailChimp and AWeber. In this guide, we will focus on using MailChimp because they have a free option, while AWeber doesn’t. You can always switch to AWeber or another competitor once you’re up and running, but MailChimp doesn’t charge anything until you have at least 2,000 subscribers.&lt;/p&gt;
+
+&lt;h3&gt;Building a List&lt;/h3&gt;
+
+&lt;p&gt;Assuming you’ve already signed up for MailChimp. We will talk about building a list and managing campaigns. The first thing to do is to create and name a list. This will be a list of people that have decided to share their emails with you.&lt;/p&gt;
+
+&lt;p&gt;Ideally, you’d want them to all come from the same or similar channel so that this list will have some meaning behind it. In other words, you want this to be a distinct group of people with traits and characteristics that you are familiar with so that you can better speak to them when you send out email campaigns later.&lt;/p&gt;
+
+&lt;h3&gt;Getting Emails&lt;/h3&gt;
+
+&lt;p&gt;Once you have created a list in MailChimp, it’s time to get people on this list! There are several ways to do this. You can either use their form creator, generate a link and send it to people, or even manually add to the list itself.&lt;/p&gt;
+
+&lt;h2&gt;Form-based Sign Up&lt;/h2&gt;
+
+&lt;p&gt;In their form creator, you can do a lot of different things to style your form and even collect additional information such as “First Name” or other information that can be used later in campaigns. One feature I like is that you can simply get the plain code from MailChimp and style it yourself on your webpage. There are numerous options here, but if you want something quick and easy, you can just use the auto-generated code or even consider a link-based approach that we will talk about now.&lt;/p&gt;
+
+&lt;h2&gt;Link-based Sign Up&lt;/h2&gt;
+
+&lt;p&gt;By far the easiest is to just copy and paste the link given to you from the form creator. Anyone who visits this link will immediately be placed into a form hosted by MailChimp and they will take care of getting the information down for you. No need to copy and paste code at all, just hand out your link and get people to sign up!&lt;/p&gt;
+
+&lt;h2&gt;Manual Adding&lt;/h2&gt;
+
+&lt;p&gt;You may be wondering why we would want to manually add people to our list. Well, in some circumstances this actually might be the most ideal option. For example, if I have been talking to potential customers/users for a while on an informal personal basis, I can always ask them “Hey, do you want to be included on our email list?” and then if they say yes, I can immediately just add them to the list myself without having them fill out any forms.&lt;/p&gt;
+
+&lt;h3&gt;Campaigns&lt;/h3&gt;
+
+&lt;p&gt;When you are finally ready to send some emails back to your list, you’ll have the benefit of using MailChimp’s mail merge functions. That means if you originally collected a first name, you could send out an email that opens with “Dear [first name]” to make it seem more personal.&lt;/p&gt;
+
+&lt;p&gt;There is a lot more that can be talked about, but one of the more interesting benefits here is the ability to see how many people opened your email and also how many actually opened your link. After that, you can specifically target the people who seem more engaged or those that seem less engaged. This gives you a lot of power to handle communicating with your audience.&lt;/p&gt;
+
+&lt;p&gt;[Transitional sentence to next topic]&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Landing Page Guide Part 5: Persuasive Writing</title>
+   <link href="http://www.codetrepreneur.com/2015/06/21/persuasive-writing/"/>
+   <updated>2015-06-21T00:00:00-04:00</updated>
+   <id>http://www.codetrepreneur.com/2015/06/21/persuasive-writing</id>
+   <content type="html">&lt;p&gt;Now that we have a basic template for everything, you might think that we’re just about done! Having a well-designed site will prevent readers from closing the tab immediately. But now we have to keep them here. We have to be able to format and write our page in a way that can convince the reader to check out our app. The ability to write persuasively is also known as copywriting. And in this post, we’ll go over a quick summary of what this entitles.&lt;/p&gt;
+
+&lt;p&gt;A shout out to &lt;a href=&quot;http://www.copyblogger.com&quot;&gt;Copyblogger&lt;/a&gt;, which is a great resource for anyone looking to learn more about this topic!&lt;/p&gt;
+
+&lt;h3&gt;The Purpose&lt;/h3&gt;
+
+&lt;p&gt;A landing page should just have one purpose. Every element of this page should point towards it. In the case of an app, you want the reader to download it. This singular focus is important, because any extra information is going to take away from the reader’s attention.&lt;/p&gt;
+
+&lt;h3&gt;The Headline&lt;/h3&gt;
+
+&lt;p&gt;Now that we understand the purpose of the landing page, let’s start from the top and talk about the headline. This is the first thing the user sees and is a make it or break it moment. If the user came to your page looking for one thing, but the headline speaks to something completely irrelevant, it’s likely that the user will simply close the tab.&lt;/p&gt;
+
+&lt;p&gt;It might seem daunting, but the headline has just one purpose: to get the user to read the first sentence of the first paragraph. And the purpose of that sentence is to get the user to read the next. And so on and so forth until we hit a point where we will ask the user to execute an action. In some cases, this might be getting the user to download your app. In other cases, it might be asking the user to fill in his or her email. This is called a “call to action”, something we will talk about in a minute.&lt;/p&gt;
+
+&lt;p&gt;So how should you phrase your headline? Your headline should be able to tell the user how this page can benefit him or her. The key word here is: &lt;em&gt;benefit&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Benefits not Features&lt;/h3&gt;
+
+&lt;p&gt;The thing about human nature is that we don’t actually care all that much about other people and things more than ourselves. This is especially true on the internet when a limitless number of pages are vying for your attention. The one way we can capture a reader’s attention is to talk about benefits.&lt;/p&gt;
+
+&lt;p&gt;It is very natural to simply write about the features that your product or service has. However, people care less about what you do and more about how you can help them attain benefits for themselves.&lt;/p&gt;
+
+&lt;h3&gt;The Call to Action&lt;/h3&gt;
+
+&lt;p&gt;So you have a benefit-driven headline, and every single sentence makes the reader want to read the next one. What now? Well, now it’s time to get them to commit to doing something that you want them to do. Ideally, this should happen at the point where you convinced them that they would fear missing out unless they responded to and executed your call to action.&lt;/p&gt;
+
+&lt;p&gt;It’s important to make this very prominent (maybe with a highly visible font or colours). We don’t want there to be any hesitation from the user. We want to make this easy for them. At the point when you think the reader should be fully convinced of the benefits that you can deliver, ask them to download your app or leave an email.&lt;/p&gt;
+
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;There is a whole lot more that can be said about this, and I am far from an expert on this one particular topic. In fact, there are thousands of copywriters who make a full-time living simply coming up with the text to describe a product or service.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Landing Page Guide Part 4: Stock Images</title>
+   <link href="http://www.codetrepreneur.com/2015/06/20/stock-images/"/>
+   <updated>2015-06-20T00:00:00-04:00</updated>
+   <id>http://www.codetrepreneur.com/2015/06/20/stock-images</id>
+   <content type="html">&lt;p&gt;Humans are a visual species, and pictures can evoke emotion. Sometimes you can get away with having a landing page that is all screenshots, but often you’ll find that beautiful imagery can lend more attractiveness and liveliness to a page.&lt;/p&gt;
+
+&lt;p&gt;In this post, we will talk about where to find good stock imagery for your landing page.&lt;/p&gt;
+
+&lt;h3&gt;The Problem: License&lt;/h3&gt;
+
+&lt;p&gt;Everyone knows that there are lots of beautiful images on the internet, but the biggest worry is permission. We need to know that the creator has given us permission to use it so that we don’t have to worry about any copyright or licensing issues.&lt;/p&gt;
+
+&lt;h3&gt;Royalty-Free is Not Always Free&lt;/h3&gt;
+
+&lt;p&gt;Some websites advertise royalty-free images, but what this means at a very basic level is just that you are not required to pay per each time that you use the image. That doesn’t mean that you won’t be required to pay for a license to use the image at all or maybe even a requirement to show attribution for the creator.&lt;/p&gt;
+
+&lt;h3&gt;A Grand List&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.reddit.com/r/marketing/comments/2uvo8f/30_resources_for_finding_free_stock_images_for/&quot;&gt;Here&lt;/a&gt; is a Reddit thread where many people have compiled a large list of free stock images that you can use without worry. Our personal favourites are &lt;a href=&quot;http://unsplash.com&quot;&gt;Unsplash&lt;/a&gt; for nature and landscape photography and &lt;a href=&quot;http://www.pexels.com&quot;&gt;Pexels&lt;/a&gt; for everything else.&lt;/p&gt;
+
+&lt;h3&gt;Size, Scale, and Resolution&lt;/h3&gt;
+
+&lt;p&gt;A lot of these free images are super high in resolution. The best practice as of 2015 is to scale the image down to a width of 2058 pixels while maintaining the aspect ratio so the image doesn’t look skewed. If these are photographs, you should use JPEG compression to reduce the image size so that the image won’t take forever to load. Play around with it, but ideally an image size under 100kb would be ideal. For screenshots or anything with text in it, a PNG file is probably more suitable.&lt;/p&gt;
+
+&lt;h3&gt;A Reminder About Text&lt;/h3&gt;
+
+&lt;p&gt;Whenever you are using text in front of an image, it is very important to make sure you have enough contrast so that people can see and read the text easily. The most common issue is the display of white text on a relatively light photograph. In these cases, I would recommend darkening the image through an image editing program like GIMP or Photoshop.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Before:&lt;/strong&gt; &lt;em&gt;I can&amp;#39;t read this!&lt;/em&gt;
+&lt;img src=&quot;/assets/no-darken.jpg&quot; alt=&quot;No Darken&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;After:&lt;/strong&gt; &lt;em&gt;Ahhh, much better.&lt;/em&gt;
+&lt;img src=&quot;/assets/darken.jpg&quot; alt=&quot;Darken&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Once we have our approriate images selected, we can move on to adding some persuasive text to our website.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Landing Page Guide Part 3: The Look</title>
+   <link href="http://www.codetrepreneur.com/2015/06/19/look/"/>
+   <updated>2015-06-19T00:00:00-04:00</updated>
+   <id>http://www.codetrepreneur.com/2015/06/19/look</id>
+   <content type="html">&lt;p&gt;The purpose of a landing page is to make people excited about your product or service. Your landing page is your chance to make a great first impression on your future customers. An ugly page makes for bad first impressions.&lt;/p&gt;
+
+&lt;p&gt;Now a lot of you might be thinking, &amp;quot;I&amp;#39;m a terrible graphic designer!&amp;quot;. And that&amp;#39;s ok! You aren&amp;#39;t in the business of building a pretty webpage. You&amp;#39;re in the business of selling your product to your waiting customers. Luckily for all us coders, there are tons of pretty templates already available online.&lt;/p&gt;
+
+&lt;h2&gt;Where to Find Templates&lt;/h2&gt;
+
+&lt;p&gt;We recommend &lt;a href=&quot;http://www.blacktie.co&quot;&gt;Blacktie&lt;/a&gt;. There&amp;#39;s a lot of good ones there, but these two are specifically for a landing page: &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.blacktie.co/2015/03/sumo-landing-html-wordpress-landing-page/&quot;&gt;Sumo Landing – HTML &amp;amp; WordPress Landing Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.blacktie.co/2014/10/landing-sumo-freebie-landing-page/&quot;&gt;Landing Sumo Freebie – Landing Page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- &lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/sumolanding.png&quot; width=&quot;50%&quot;&gt;
+&lt;/div&gt; --&gt;
+
+&lt;h2&gt;Making Small Adjustments&lt;/h2&gt;
+
+&lt;p&gt;While the templates are a good start, you might need to adjust a few things here and there. This guide isn&amp;#39;t meant to be an HTML and CSS tutorial, but we&amp;#39;ll outline a general workflow you can use to make small changes to the look.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Open up &lt;code&gt;index.html&lt;/code&gt; in a browser. &lt;/li&gt;
+&lt;li&gt;Right click on the something you want to adjust and select &lt;strong&gt;Inspect Element&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Take note of the &lt;strong&gt;Styles&lt;/strong&gt; sidebar. Play around with it in the browser until you get your desired look. The &lt;strong&gt;Rules&lt;/strong&gt; will show you which file each property comes from.&lt;/li&gt;
+&lt;li&gt;Copy the changes in the browser into the appropriate file.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now that we have our template set up, let&amp;#39;s get some pretty images for our website.&lt;/p&gt;
+
+&lt;!-- We are going to be working with just the files `Theme/index.html` and `Theme/assets/css/style.css`.
+
+&gt; ### If you&#39;re wondering about the other files...
+This template makes use of the [Bootstrap](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)) front-end framework, which basically consists of HTML and CSS templates for typography, column widths, buttons, and other things to make life easier. The Bootstrap file is located at `Theme/assets/css/bootstrap.css` --&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Landing Page Guide Part 2: The Hosting</title>
+   <link href="http://www.codetrepreneur.com/2015/06/18/free-hosting/"/>
+   <updated>2015-06-18T00:00:00-04:00</updated>
+   <id>http://www.codetrepreneur.com/2015/06/18/free-hosting</id>
+   <content type="html">&lt;p&gt;You &lt;em&gt;could&lt;/em&gt; always pay for hosting, but thanks to the Internet there are many good free hosting services out there we can take advantage of. A simple landing page shouldn&amp;#39;t require anything complicated.&lt;/p&gt;
+
+&lt;h2&gt;Free Hosting&lt;/h2&gt;
+
+&lt;p&gt;For our free hosting provider, we are going to use &lt;a href=&quot;https://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt;. If you don&amp;#39;t have a GitHub account, you can sign up &lt;a href=&quot;https://github.com/join&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;On a free GitHub account, anyone can see your files. But since we&amp;#39;re just building a static landing page, anyone can see the HTML through &lt;code&gt;View Source&lt;/code&gt; on any browser anyways.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;GitHub&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Once you have an account, create a new repository.&lt;img src=&quot;/assets/github-new-repo.png&quot; alt=&quot;Create a new repository&quot;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Enter a repository name.&lt;img src=&quot;/assets/github-repo-name.png&quot; alt=&quot;Enter a repository name&quot;&gt; &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You can change this later if you want in &lt;strong&gt;Settings&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Select &lt;strong&gt;Initialize this repository with a README&lt;/strong&gt;.&lt;img src=&quot;/assets/github-init-readme.png&quot; alt=&quot;Initialize with a README&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create a new branch called &lt;code&gt;gh-pages&lt;/code&gt;.&lt;img src=&quot;/assets/github-new-branch.png&quot; alt=&quot;Create a new branch&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;(Optional) Set the default branch to &lt;code&gt;gh-pages&lt;/code&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go into the &lt;strong&gt;Settings&lt;/strong&gt; of your repo.&lt;img src=&quot;/assets/github-settings.png&quot; alt=&quot;GitHub repo settings&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Set default branch to &lt;code&gt;gh-pages&lt;/code&gt;&lt;img src=&quot;/assets/github-default-branch.png&quot; alt=&quot;Set default branch&quot;&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Copy the clone URL of the repository.&lt;img src=&quot;/assets/github-clone-url.png&quot; alt=&quot;Clone URL&quot;&gt; It should look like this: 
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;https://github.com/username/my-site.git&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Terminal&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Clone the remote git repository by typing the following into your terminal. 
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git clone https://github.com/username/my-site.git&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Let&amp;#39;s try modifying the &lt;code&gt;README&lt;/code&gt; file. Open the file and type in &lt;code&gt;Hello world!&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Add and commit the file to your local git repo. 
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git add README.md
+git commit -m &lt;span class=&quot;s2&quot;&gt;&amp;quot;Just sayin&amp;#39; hi.&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Push the commit to GitHub. 
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git push origin gh-pages&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Setting Up a Custom Domain Name&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Sign into your Namecheap account.&lt;/li&gt;
+&lt;li&gt;Click on &lt;strong&gt;Your Domains / Products&lt;/strong&gt;.
+&lt;img src=&quot;/assets/namecheap-main-page.png&quot; alt=&quot;Namecheap Main Page&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Click on the domain name you want to display the webpage currently at &lt;code&gt;username.github.io&lt;/code&gt;.
+&lt;img src=&quot;/assets/namecheap-your-domains.png&quot; alt=&quot;Namecheap Domains&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Click on &lt;strong&gt;URL Forwarding&lt;/strong&gt;.
+&lt;img src=&quot;/assets/namecheap-my-website.png&quot; alt=&quot;Namecheap My Website&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Setup two CNAME records. One for the root apex &lt;code&gt;(@)&lt;/code&gt; and one for &lt;code&gt;www.&lt;/code&gt; Both point to &lt;code&gt;username.github.io.&lt;/code&gt;. The period at the end is required.
+&lt;img src=&quot;/assets/namecheap-modify-domain.png&quot; alt=&quot;Namecheap Modify Domain&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Click on &lt;strong&gt;Save Changes&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Go to your url and check that it&amp;#39;s redirecting properly.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now that we&amp;#39;ve set up hosting and our domain name is redirecting to our GitHub Pages repo, let&amp;#39;s move on to adding content.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Landing Page Guide Part 1: The Domain Name</title>
+   <link href="http://www.codetrepreneur.com/2015/06/17/finding-a-domain-name/"/>
+   <updated>2015-06-17T00:00:00-04:00</updated>
+   <id>http://www.codetrepreneur.com/2015/06/17/finding-a-domain-name</id>
+   <content type="html">&lt;p&gt;The first step to starting any website is the name. Let&amp;#39;s see how we find a name that isn&amp;#39;t taken already and get it registered.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h3&gt;I don&amp;#39;t care about a custom domain name!&lt;/h3&gt;
+
+&lt;p&gt;If you don&amp;#39;t want to pay for a custom domain name, you can move onto the next post in this tutorial series: &lt;a href=&quot;/2015/06/18/free-hosting/&quot;&gt;(free) hosting&lt;/a&gt;. However, a custom name does look a lot more legitimate.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Finding a Name&lt;/h2&gt;
+
+&lt;p&gt;The Internet has been around for a while, so many of the popular names have been taken. So before falling in love with any one name, go to &lt;a href=&quot;www.instantdomainsearch.com&quot;&gt;Instant Domain Search&lt;/a&gt; to find out if it&amp;#39;s taken.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/instantdomainsearch-results.png&quot; alt=&quot;Instant Domain Search results&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Registering the Domain Name&lt;/h2&gt;
+
+&lt;p&gt;After you settle on a name, it&amp;#39;s time to get it registered with a domain name registrar. I usually go with &lt;a href=&quot;http://www.namecheap.com&quot;&gt;Namecheap&lt;/a&gt;. They usually provide domain names at around $10 / year. The first year also comes with a free year of &lt;a href=&quot;http://www.whoisguard.com&quot;&gt;WHOIS Guard&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h3&gt;Why should I care about WHOIS Guard?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/WHOIS&quot;&gt;WHOIS&lt;/a&gt; basically tells people who owns any domain name. The information that you used to pruchase your domain from the registrar can be found by people, or worse, spam bots. If you don&amp;#39;t want your private information to be accessible in a WHOIS search, make sure that your domain registrar provides WHOIS Guard as a service.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now that you&amp;#39;ve got your name registered, next time you will learn where you can host your site for free.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Landing Page Guide: Introduction</title>
+   <link href="http://www.codetrepreneur.com/2015/06/16/landing-page-introduction/"/>
+   <updated>2015-06-16T00:00:00-04:00</updated>
+   <id>http://www.codetrepreneur.com/2015/06/16/landing-page-introduction</id>
+   <content type="html">&lt;p&gt;Hi there! Thanks for checking out our guide to making a landing page. We hope it helps you out!&lt;/p&gt;
+
+&lt;p&gt;That being said, we are going to assume that you know some prerequisites before starting out (doesn&amp;#39;t have to be at a very high level, just the basics are fine):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.webmonkey.com/2010/02/html_cheatsheet/&quot;&gt;HTML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://learnxinyminutes.com/docs/css/&quot;&gt;CSS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/git/tutorials/&quot;&gt;Git&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you need a quick refresher for these topics, just click the links above.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
