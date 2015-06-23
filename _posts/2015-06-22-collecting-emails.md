@@ -8,7 +8,7 @@ It’s important to have a landing page, and a landing page can do many things f
 
 Maybe you don’t have an app yet, but you want to validate the idea by gauging the demand. Many times, this can give you a huge boost in motivation to work on something. Or maybe you want to have a way to contact a very specific group of people who might enjoy future products you plan to build. In either case (and many others), email lists are one of the most valuable things you can have.
 
-In this post, we will talk about email addresses, specifically how we will collect emails and send emails through MailChimp.
+In this post, we will talk about email addresses, specifically how we will collect emails and send emails through [MailChimp](http://www.mailchimp.com/).
 
 ### Selecting a Service Provider: MailChimp or AWeber
 
@@ -22,15 +22,21 @@ Ideally, you’d want them to all come from the same or similar channel so that 
 
 ### Getting Emails
 
-Once you have created a list in MailChimp, it’s time to get people on this list! There are several ways to do this. You can either use their form creator, generate a link and send it to people, or even manually add to the list itself.
+Once you have created a list in MailChimp, it’s time to get people on this list! There are several ways to do this. You can either use their form creator, generate a link and send it to people, or even manually add to the list itself. So go ahead and select your list and under your list name, you should find the "Sign-up Forms" option.
+
+![Mailchimp List Form Options](/assets/mailchimp-forms.png)
 
 ## Form-based Sign Up
 
-In their form creator, you can do a lot of different things to style your form and even collect additional information such as “First Name” or other information that can be used later in campaigns. One feature I like is that you can simply get the plain code from MailChimp and style it yourself on your webpage. There are numerous options here, but if you want something quick and easy, you can just use the auto-generated code or even consider a link-based approach that we will talk about now.
+In their form creator, which you can get to by clicking "General Forms", there are a lot of different tools to style your form and even collect additional information such as “First Name” or other information that can be used later in campaigns.
+
+If, on the other hand, you're like me and simply want the code then simply select "Embedded Forms" instead. This way, you are able to get the plain code from MailChimp and style it yourself on your webpage. There are numerous options here, but if you want something quick and easy, you can just use the auto-generated code or even consider a link-based approach that we will talk about now.
 
 ## Link-based Sign Up
 
-By far the easiest is to just copy and paste the link given to you from the form creator. Anyone who visits this link will immediately be placed into a form hosted by MailChimp and they will take care of getting the information down for you. No need to copy and paste code at all, just hand out your link and get people to sign up!
+![Mailchimp List Form Options](/assets/mailchimp-link.png)
+
+By far the easiest is to just copy and paste the link given to you from the form creator (under "General Forms"). Anyone who visits this link will immediately be placed into a form hosted by MailChimp and they will take care of getting the information down for you. No need to copy and paste code at all, just hand out your link and get people to sign up!
 
 ## Manual Adding
 

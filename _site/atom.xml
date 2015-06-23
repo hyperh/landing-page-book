@@ -4,7 +4,7 @@
  <title>Codetrepreneur</title>
  <link href="http://www.codetrepreneur.com/atom.xml" rel="self"/>
  <link href="http://www.codetrepreneur.com/"/>
- <updated>2015-06-23T16:49:30-04:00</updated>
+ <updated>2015-06-23T17:04:13-04:00</updated>
  <id>http://www.codetrepreneur.com</id>
  <author>
    <name>Tom Riddle</name>
@@ -87,7 +87,7 @@ Paste the Google Analytics code between the &lt;code&gt;&amp;lt;head&amp;gt;...&
 
 &lt;p&gt;Maybe you don’t have an app yet, but you want to validate the idea by gauging the demand. Many times, this can give you a huge boost in motivation to work on something. Or maybe you want to have a way to contact a very specific group of people who might enjoy future products you plan to build. In either case (and many others), email lists are one of the most valuable things you can have.&lt;/p&gt;
 
-&lt;p&gt;In this post, we will talk about email addresses, specifically how we will collect emails and send emails through MailChimp.&lt;/p&gt;
+&lt;p&gt;In this post, we will talk about email addresses, specifically how we will collect emails and send emails through &lt;a href=&quot;http://www.mailchimp.com/&quot;&gt;MailChimp&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3&gt;Selecting a Service Provider: MailChimp or AWeber&lt;/h3&gt;
 
@@ -101,15 +101,21 @@ Paste the Google Analytics code between the &lt;code&gt;&amp;lt;head&amp;gt;...&
 
 &lt;h3&gt;Getting Emails&lt;/h3&gt;
 
-&lt;p&gt;Once you have created a list in MailChimp, it’s time to get people on this list! There are several ways to do this. You can either use their form creator, generate a link and send it to people, or even manually add to the list itself.&lt;/p&gt;
+&lt;p&gt;Once you have created a list in MailChimp, it’s time to get people on this list! There are several ways to do this. You can either use their form creator, generate a link and send it to people, or even manually add to the list itself. So go ahead and select your list and under your list name, you should find the &amp;quot;Sign-up Forms&amp;quot; option.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/mailchimp-forms.png&quot; alt=&quot;Mailchimp List Form Options&quot;&gt;&lt;/p&gt;
 
 &lt;h2&gt;Form-based Sign Up&lt;/h2&gt;
 
-&lt;p&gt;In their form creator, you can do a lot of different things to style your form and even collect additional information such as “First Name” or other information that can be used later in campaigns. One feature I like is that you can simply get the plain code from MailChimp and style it yourself on your webpage. There are numerous options here, but if you want something quick and easy, you can just use the auto-generated code or even consider a link-based approach that we will talk about now.&lt;/p&gt;
+&lt;p&gt;In their form creator, which you can get to by clicking &amp;quot;General Forms&amp;quot;, there are a lot of different tools to style your form and even collect additional information such as “First Name” or other information that can be used later in campaigns.&lt;/p&gt;
+
+&lt;p&gt;If, on the other hand, you&amp;#39;re like me and simply want the code then simply select &amp;quot;Embedded Forms&amp;quot; instead. This way, you are able to get the plain code from MailChimp and style it yourself on your webpage. There are numerous options here, but if you want something quick and easy, you can just use the auto-generated code or even consider a link-based approach that we will talk about now.&lt;/p&gt;
 
 &lt;h2&gt;Link-based Sign Up&lt;/h2&gt;
 
-&lt;p&gt;By far the easiest is to just copy and paste the link given to you from the form creator. Anyone who visits this link will immediately be placed into a form hosted by MailChimp and they will take care of getting the information down for you. No need to copy and paste code at all, just hand out your link and get people to sign up!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/mailchimp-link.png&quot; alt=&quot;Mailchimp List Form Options&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;By far the easiest is to just copy and paste the link given to you from the form creator (under &amp;quot;General Forms&amp;quot;). Anyone who visits this link will immediately be placed into a form hosted by MailChimp and they will take care of getting the information down for you. No need to copy and paste code at all, just hand out your link and get people to sign up!&lt;/p&gt;
 
 &lt;h2&gt;Manual Adding&lt;/h2&gt;
 
