@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Landing Page Guide Part 2: The Hosting"
+tags: landing_page_guide
 ---
 
 You _could_ always pay for hosting, but thanks to the Internet there are many good free hosting services out there we can take advantage of. A simple landing page shouldn't require anything complicated.

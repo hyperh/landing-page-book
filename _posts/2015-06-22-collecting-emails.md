@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Landing Page Guide Part 6: Collecting Emails"
+tags: landing_page_guide
 ---
 
 It’s important to have a landing page, and a landing page can do many things for you. However, one of the chief uses for a landing page is to collect and build an email list. Why is this important?

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Landing Page Guide: Introduction"
+tags: landing_page_guide
 ---
 
 Hi there! Thanks for checking out our guide to making a landing page. We hope it helps you out!

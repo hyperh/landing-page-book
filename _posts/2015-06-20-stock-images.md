@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Landing Page Guide Part 4: Stock Images"
+tags: landing_page_guide
 ---
 
 Humans are a visual species, and pictures can evoke emotion. Sometimes you can get away with having a landing page that is all screenshots, but often you’ll find that beautiful imagery can lend more attractiveness and liveliness to a page.

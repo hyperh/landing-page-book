@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Landing Page Guide Part 5: Persuasive Writing"
+tags: landing_page_guide
 ---
 
 Now that we have a basic template for everything, you might think that we’re just about done! Having a well-designed site will prevent readers from closing the tab immediately. But now we have to keep them here. We have to be able to format and write our page in a way that can convince the reader to check out our app. The ability to write persuasively is also known as copywriting. And in this post, we’ll go over a quick summary of what this entitles.

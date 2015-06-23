@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Landing Page Guide Part 1: The Domain Name"
+tags: landing_page_guide
 ---
 
 The first step to starting any website is the name. Let's see how we find a name that isn't taken already and get it registered.
