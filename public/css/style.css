@@ -1,3 +1,58 @@
+/* sidebar icons and text */
+
+@media (min-width: 48em) {
+  .sidebar-nav .fa {
+    display: block;
+    font-size: 1.5rem;
+    margin: 2rem auto 0.1rem auto;
+  }
+}
+
+.sidebar a {
+  line-height: 1.5rem;
+}
+
+.sidebar * {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* sidebar thin width */
+
+@media (min-width: 48em) {
+  .content {
+    max-width: 38rem;
+    margin-left: 16rem;
+    margin-right: 6rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .content {
+    margin-left: 19rem;
+    margin-right: 7rem;
+  }
+}
+
+@media (min-width: 48em) {
+  .sidebar {
+    width: 12rem;
+  }
+}
+
+/* other sidebar customizations */
+
+.sidebar-sticky {
+  bottom: auto;
+}
+
+.sidebar * {
+  color: white;
+}
+
+/* other customizations */
+
 .centered {
   text-align: center;
   margin-left: auto;
