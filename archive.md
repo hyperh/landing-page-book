@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Archive
+icon: fa-archive
 ---
 
 ## All Blog Posts
