@@ -1,3 +1,9 @@
+.centered {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .logo {
 	width: 50%;
 	/*http://stackoverflow.com/a/24224219/2422566*/
