@@ -15,7 +15,7 @@ The Internet has been around for a while, so many of the popular names have been
 ![Instant Domain Search results](/assets/instantdomainsearch-results.png)
 
 ## Registering the Domain Name
-After you settle on a name, it's time to get it registered with a domain name registrar. I usually go with [Namecheap](http://www.namecheap.com). They usually provide domain names at around $10 / year. The first year also comes with a free year of [WHOIS Guard](http://www.whoisguard.com).
+After you settle on a name, it's time to get it registered with a domain name registrar. I usually go with [Namecheap](http://www.namecheap.com/?aff=87740). They usually provide domain names at around $10 / year. The first year also comes with a free year of [WHOIS Guard](http://www.whoisguard.com).
 
 > ### Why should I care about WHOIS Guard? 
 [WHOIS](https://en.wikipedia.org/wiki/WHOIS) basically tells people who owns any domain name. The information that you used to pruchase your domain from the registrar can be found by people, or worse, spam bots. If you don't want your private information to be accessible in a WHOIS search, make sure that your domain registrar provides WHOIS Guard as a service.
