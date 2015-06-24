@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Landing Page Guide
+icon: fa-book
 ---
 
 ## Landing Page Guide
