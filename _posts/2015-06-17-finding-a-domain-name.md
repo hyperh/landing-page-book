@@ -20,4 +20,4 @@ After you settle on a name, it's time to get it registered with a domain name re
 > ### Why should I care about WHOIS Guard? 
 [WHOIS](https://en.wikipedia.org/wiki/WHOIS) basically tells people who owns any domain name. The information that you used to pruchase your domain from the registrar can be found by people, or worse, spam bots. If you don't want your private information to be accessible in a WHOIS search, make sure that your domain registrar provides WHOIS Guard as a service.
 
-Now that you've got your name registered, next time you will learn where you can host your site for free.
+Now that you've got your name registered, next time you will learn where you can [host your site for free]({% post_url 2015-06-18-free-hosting %}).

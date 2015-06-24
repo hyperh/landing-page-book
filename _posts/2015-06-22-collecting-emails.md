@@ -48,4 +48,4 @@ When you are finally ready to send some emails back to your list, you’ll have 
 
 There is a lot more that can be talked about, but one of the more interesting benefits here is the ability to see how many people opened your email and also how many actually opened your link. After that, you can specifically target the people who seem more engaged or those that seem less engaged. This gives you a lot of power to handle communicating with your audience.
 
-Now that we've gotten the email list collection set up, let's look at understanding our audience.
+Now that we've gotten the email list collection set up, let's look at [understanding our audience]({% post_url 2015-06-23-google-analytics %}).

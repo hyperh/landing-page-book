@@ -48,4 +48,4 @@ git commit -m "Just sayin' hi." {%  endhighlight %}
 6. Click on **Save Changes**.
 7. Go to your url and check that it's redirecting properly.
 
-Now that we've set up hosting and our domain name is redirecting to our GitHub Pages repo, let's move on to adding content.
+Now that we've set up hosting and our domain name is redirecting to our GitHub Pages repo, let's move on to [adding content]({% post_url 2015-06-19-look %}).

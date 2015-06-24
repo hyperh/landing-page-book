@@ -36,5 +36,5 @@ It’s important to make this very prominent (maybe with a highly visible font o
 
 There is a whole lot more that can be said about this, and I am far from an expert on this one particular topic. In fact, there are thousands of copywriters who make a full-time living simply coming up with the text to describe a product or service.
 
-
+Now that we're done with that, let's move on to [collecting emails]({% post_url 2015-06-22-collecting-emails %})!
 

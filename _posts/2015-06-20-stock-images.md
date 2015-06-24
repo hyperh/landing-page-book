@@ -34,4 +34,4 @@ Whenever you are using text in front of an image, it is very important to make s
 **After:** _Ahhh, much better._
 ![Darken](/assets/darken.jpg)
 
-Once we have our approriate images selected, we can move on to adding some persuasive text to our website.
+Once we have our approriate images selected, we can move on to [adding some persuasive text]({% post_url 2015-06-21-persuasive-writing %}) to our website.

@@ -13,3 +13,5 @@ That being said, we are going to assume that you know some prerequisites before 
 - [Git](https://www.atlassian.com/git/tutorials/)
 
 If you need a quick refresher for these topics, just click the links above.
+
+Let's go on to [finding a domain name]({% post_url 2015-06-17-finding-a-domain-name %})
